@@ -1,0 +1,67 @@
+
+.row-btn{
+    display: flex;
+    flex: 1 1;
+}
+.btn{
+    background-color: rgb(32, 46, 241);
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: azure;
+}
+.btn:hover{
+    background-color: orange;
+    color: black;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 2px solid grey;
+    width: fit-content;
+    background-color: rgb(131, 8, 180);
+}
+
+section input{
+    margin-bottom: 10px;
+}
+.btn-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.btn-group div{
+    gap: 2px;
+}
+.pantalla{
+    width: 180px;
+    height: 40px;
+    border: 2px solid rgb(247, 247, 250);
+    border-radius: 10px;
+    background-color: #1B1B32;
+    margin: 5px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    font-size: 20px;
+}
+.btn-clear{
+    width: 180px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.btn-clear:hover{
+    background-color: blue;
+    color: whitesmoke;
+}
